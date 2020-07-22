@@ -28,10 +28,9 @@ class App extends Component {
   }
   
   render() {
-
     return (
       <div className="App">
-        <Header data={this.state.portfolioData} />
+        <Header data={this.state.portfolioData.main} />
       </div>
     )
   }

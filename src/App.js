@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
 import Header from './Components/Header';
+import About from './Components/About';
 
 class App extends Component {
   constructor(props) {
@@ -31,6 +32,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.portfolioData.main} />
+        <About data={this.state.portfolioData.main} />
       </div>
     )
   }

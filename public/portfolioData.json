@@ -75,54 +75,13 @@
         "description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
       }
     ],
-    "skills": [
-      {
-        "competences": [
-          {
-            "Web Technologies and Frameworks": ["HTML5", "CSS3", "Reactjs", "Redux", "JQuery", "REST API", "GraphQL server"]
-          },
-          {
-            "languages and Scripts": ["JavaScript", "Nodejs",  "Expressjs", "Python"]
-          },
-          {
-            "Database and ORM": ["MongoDB", "Redux-ORM"]
-          },
-          {
-            "Testing and Debugging": ["Jest", "Cypress",  "Chrome developer tool", "Firefox developer tool"]
-          },
-          {
-            "Others": ["NPM", "Yarn", "Figma"]
-          }
-        ],
-        "technologies": [
-          {
-            "name": "HTML",
-            "level": ""
-          },
-          {
-            "name": "CSS",
-            "level": ""
-          },
-          {
-            "name": "JavaScript",
-            "level": ""
-          },
-          {
-            "name": "MongoDB",
-            "level": ""
-          },
-          {
-            "name": "Nodejs",
-            "level": ""
-          },
-          {
-            "name": "Redux",
-            "level": ""
-          }
-        ]
-      }
-    ]
-    
+    "skills": {
+      "Web Technologies and Frameworks": ["HTML5", "CSS3", "Reactjs", "Redux", "JQuery", "REST API", "GraphQL server"],
+      "languages and Scripts": ["JavaScript", "Nodejs",  "Expressjs", "Python"],
+      "Database and ORM": ["MongoDB", "Redux-ORM"],
+      "Testing and Debugging": ["Jest", "Cypress",  "Chrome developer tool", "Firefox developer tool"],
+      "Others": ["NPM", "Yarn", "Figma"]
+    }
   },
   "portfolio": {
     "projects": [

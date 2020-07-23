@@ -40,7 +40,8 @@
     ]
   },
   "resume": {
-    "skillmessage": "",
+    "skillmessage1": "I am highly interested in frontend development, building clean and interactive user interfaces that run accross all devices using frontend technologies like HTML5, CSS3, Javascript(ReactJs).",
+    "skillmessage2": "I also have hand-on experience developing full-stack application with NodeJs using modern database system like MongoDB and REST API for the backend",
     "education": [
       {
         "school": "Obafemi Awolowo University, Ile-ife, Osun State",

@@ -14,7 +14,6 @@ class Header extends Component {
     } = data;
 
 
-    console.log(socials)
     const networks = socials.map(s => <li key={s.name}><a href={s.url}><i className={s.className}></i></a></li>)
       
 
@@ -32,7 +31,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
             {/* <li><a className="smoothscroll" href="#home">Resume</a></li> */}
             <li><a className="smoothscroll" href="#resume">Experience</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
           </ul>
 

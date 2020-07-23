@@ -45,14 +45,8 @@
       {
         "school": "Obafemi Awolowo University, Ile-ife, Osun State",
         "degree": "B.Sc. Electronic and Electrical Engineering",
-        "graduated": "2016",
-        "description": ""
-      },
-      {
-        "school": "",
-        "degree": "",
-        "graduated": "",
-        "description": ""
+        "graduated": "December 2016",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
       }
     ],
     "work": [
@@ -60,25 +54,25 @@
         "company": "ScriptedOptics Limited",
         "title": "Production Assistant",
         "years": "2019",
-        "description": ""
+        "description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
       },
       {
         "company": "Ekiti State Electricity Board",
         "title": "Graduate Engineer Trainee",
         "years": "2017 - 2018",
-        "description": ""
+        "description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
       },
       {
         "company": "Mobil Oil Nigeria",
         "title": "Student Engineer Intern",
         "years": "2014 - 2014",
-        "description": ""
+        "description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
       },
       {
         "company": "Rida National Plastics",
         "title": "Intern",
         "years": "2014",
-        "description": ""
+        "description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
       }
     ],
     "skills": [
@@ -88,16 +82,16 @@
             "Web Technologies and Frameworks": ["HTML5", "CSS3", "Reactjs", "Redux", "JQuery", "REST API", "GraphQL server"]
           },
           {
-            "Programming languages and Scripts": ["JavaScript", "Nodejs",  "Expressjs", "Python"]
+            "languages and Scripts": ["JavaScript", "Nodejs",  "Expressjs", "Python"]
           },
           {
-            "Database and ORM": ["MongoDB", "Redux", "ORM"]
+            "Database and ORM": ["MongoDB", "Redux-ORM"]
           },
           {
-            "Database and ORM": ["MongoDB", "Redux", "ORM"]
+            "Testing and Debugging": ["Jest", "Cypress",  "Chrome developer tool", "Firefox developer tool"]
           },
           {
-            "Testing and Debugging": ["Jest", "Cypress",  "Chrome developer tool", "Firefox developer", "tool"]
+            "Others": ["NPM", "Yarn", "Figma"]
           }
         ],
         "technologies": [

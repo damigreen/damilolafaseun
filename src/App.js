@@ -4,6 +4,8 @@ import axios from 'axios';
 import Header from './Components/Header';
 import About from './Components/About';
 import Experience from './Components/Experience';
+import Portfolio from './Components/Portfolio';
+
 
 class App extends Component {
   constructor(props) {
@@ -35,6 +37,7 @@ class App extends Component {
         <Header data={this.state.portfolioData.main} />
         <About data={this.state.portfolioData.main} />
         <Experience data={this.state.portfolioData.resume} />
+        <Portfolio data={this.state.portfolioData.portfolio} />
       </div>
     )
   }

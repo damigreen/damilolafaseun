@@ -4,6 +4,10 @@ import { Card } from 'antd';
 const gridStyle = {
   width: '25%',
   textAlign: 'center',
+  // height: '50vh',
+  // display: 'flex',
+  // justifyContent: 'center',
+  // alignItems: 'center'
 };
 
 
@@ -12,16 +16,14 @@ export class Experience extends Component {
     const { data = {} } = this.props;
 
     const {
-      skillmessage = "",
+      skillmessage1 = "",
+      skillmessage2 = "",
       education = [],
       work = [],
       skills = {},
     } = data;
 
-    console.log(data)
-    console.log(education)
-    console.log(education.map(e => e.school))
-
+    
     const myEducation = education.map(e => {
       return (
         <div key={e.school}><h3>{e.school}</h3>
@@ -40,19 +42,17 @@ export class Experience extends Component {
       )
     })
 
-    const mySkills = skills['Web Technologies and Frameworks']
-    console.log(mySkills)
-    // const x = mySkills.Name
-    // console.log(x)
+    var mySkillNames = Object.keys(skills)
 
-    // const mySkills = skills.map(s => {
-    //     // var className = 'bar-expand ' + s.name
-    //   return (
-    //     return (
-    //       <li key={s.competences.}
-    //     )
-    //   )
-    // })
+    const mySkills = mySkillNames.map(sk => {
+      return (
+        <Card style={{marginTop: '70px'}} title={sk} >
+          {skills[sk].map(s => (
+            <Card.Grid style={gridStyle}>{s}</Card.Grid>
+          ))}
+        </Card>
+      )
+    })
 
     return (
       <section id="resume">
@@ -80,6 +80,26 @@ export class Experience extends Component {
           <div className="nine columns main-col">
             {myWorkExperience}
           </div>
+        </div>
+
+        <div className="row skills">
+        <div className="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+          <div className="nine columns">
+            {skillmessage1}
+          </div><br /><br /><br />
+            
+          <div className="nine columns offset-3">
+            {skillmessage2}
+          </div>
+          
+          <div>
+            {mySkills}
+
+          </div>
+
         </div>
       </section>
     )

@@ -1,4 +1,11 @@
 import React, { Component } from 'react'
+import { Card } from 'antd';
+
+const gridStyle = {
+  width: '25%',
+  textAlign: 'center',
+};
+
 
 export class Experience extends Component {
   render() {
@@ -8,7 +15,7 @@ export class Experience extends Component {
       skillmessage = "",
       education = [],
       work = [],
-      skills = [],
+      skills = {},
     } = data;
 
     console.log(data)
@@ -33,14 +40,19 @@ export class Experience extends Component {
       )
     })
 
-    const mySkills = skills.map(s => {
-        // var className = 'bar-expand ' + s.name
-      return (
-        return (
-          <li key={s.competences.}
-        )
-      )
-    })
+    const mySkills = skills['Web Technologies and Frameworks']
+    console.log(mySkills)
+    // const x = mySkills.Name
+    // console.log(x)
+
+    // const mySkills = skills.map(s => {
+    //     // var className = 'bar-expand ' + s.name
+    //   return (
+    //     return (
+    //       <li key={s.competences.}
+    //     )
+    //   )
+    // })
 
     return (
       <section id="resume">

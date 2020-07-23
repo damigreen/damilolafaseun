@@ -41,7 +41,7 @@
   },
   "resume": {
     "skillmessage1": "I am highly interested in frontend development, building clean and interactive user interfaces that run accross all devices using frontend technologies like HTML5, CSS3, Javascript(ReactJs).",
-    "skillmessage2": "I also have hand-on experience developing full-stack application with NodeJs using modern database system like MongoDB and REST API for the backend",
+    "skillmessage2": "I also have hand-on experience developing full-stack application with NodeJs using modern database system like MongoDB and REST API for the backend.",
     "education": [
       {
         "school": "Obafemi Awolowo University, Ile-ife, Osun State",
@@ -89,31 +89,31 @@
       {
         "title": "BlogKeep",
         "categories": "A Nodejs web Application that allows users save interesting blogs from the web with likes and comments features",
-        "image": "",
+        "image":"canadian-wanderlust.jpg",
         "url": ""
       },
       {
         "title": "Web Stickies",
         "categories": "A Simple  JavaScript application that allows you to quickly stick important note to your web browsers as a form of a remainder.",
-        "image": "",
+        "image":"fury-fighting-gear.jpg",
         "url": ""
       },
       {
         "title": "PhoneBook",
         "categories": "A web application that utilizes the MERN stack and allows users easily manage their phonebook",
-        "image": "",
+        "image":"original-thai-food.jpg",
         "url": ""
       },
       {
         "title": "Battleship",
         "categories": "A JavaScript game allow a user play against battleships generated on grid locations and provides users with a trigger for targeting battleships locations on the grid",
-        "image": "",
+        "image":"resume-website.jpg",
         "url": ""
       },
       {
         "title": "Country-Finder",
         "categories": "A React front-end portal that helps users acces information about a particular country including country flag, population, weather conditions etc .",
-        "image": "",
+        "image":"smirkspace.jpg",
         "url": ""
       }
     ]

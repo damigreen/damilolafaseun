@@ -10,7 +10,6 @@ class About extends Component {
       bio = "",
       email = "",
       phone = "",
-      contactmessage = "",
       image = "",
       resumedownload = "",
       address = {}

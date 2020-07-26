@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
-import Header from './Components/Header';
-import About from './Components/About';
-import Experience from './Components/Experience';
-import Portfolio from './Components/Portfolio';
-import Contact from './Components/Contact'
+import Header from './components/Header';
+import About from './components/About';
+import Experience from './components/Experience';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact'
 
 class App extends Component {
   constructor(props) {

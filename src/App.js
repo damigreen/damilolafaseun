@@ -6,6 +6,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact'
+import Footer from './components/Footer';
 
 class App extends Component {
   constructor(props) {
@@ -33,12 +34,13 @@ class App extends Component {
   
   render() {
     return (
-      <div className="App">
+      <div style={{backgroundColor: '1px solid red'}} className="App">
         <Header data={this.state.portfolioData.main} />
         <About data={this.state.portfolioData.main} />
         <Experience data={this.state.portfolioData.resume} />
         <Portfolio data={this.state.portfolioData.portfolio} />
         <Contact data={this.state.portfolioData.main} />
+        <Footer data={this.state.portfolioData.main} />
       </div>
     )
   }

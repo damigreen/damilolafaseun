@@ -22,8 +22,39 @@ export default class Contact extends Component {
 
           </div>
           <div id="columns eight">
+            <p className="lead">{contactmessage}</p>
+          </div>
+          <div className="row">
+            <div className="eight columns centered">
+              <form>
+                <fieldset>
 
-          <p className="lead">{contactmessage}</p>
+                  <div>
+                    <input type="text" placeholder="Name" size id="contactName" name="contactName" onChange />
+                  </div>
+                  
+                  <div>
+                    <input type="email" placeholder="Enter Email" size id="contactEmail" name="contactEmail" onChange />
+                  </div>
+
+                  <div>
+                    <input type="text" placeholder="Subject" size id="contactSubject" name="contactSubject" onChange />
+                  </div>
+
+                  <div>
+                     <textarea cols="30" rows="15" placeholder="Your Message" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                    <button className="submit">Submit</button>
+                    <span id="image-loader">
+                      <img alt="" src="images/loader.gif" />
+                    </span>
+                  </div>
+
+                </fieldset>
+              </form>
+            </div>
           </div>
 
         </div>

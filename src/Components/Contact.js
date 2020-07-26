@@ -21,9 +21,11 @@ export default class Contact extends Component {
             <h1><span>CONTACT</span></h1>
 
           </div>
+
           <div id="columns eight">
             <p className="lead">{contactmessage}</p>
           </div>
+          
           <div className="row">
             <div className="eight columns centered">
               <form>
@@ -32,9 +34,9 @@ export default class Contact extends Component {
                   <div>
                     <input type="text" placeholder="Name" size id="contactName" name="contactName" onChange />
                   </div>
-                  
+
                   <div>
-                    <input type="email" placeholder="Enter Email" size id="contactEmail" name="contactEmail" onChange />
+                    <input type="email" placeholder="Enter email" size id="contactEmail" name="contactEmail" onChange />
                   </div>
 
                   <div>

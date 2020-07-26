@@ -24,6 +24,11 @@
 
 body { background: #0f0f0f; }
 
+.App {
+   background-color: #0F0F0F;
+}
+
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -966,6 +971,7 @@ footer {
    padding-top: 48px;
    margin-bottom: 48px;
    color: #303030;
+   background: #0F0F0F;
    font-size: 14px;
    text-align: center;
    position: relative;
@@ -996,6 +1002,11 @@ footer .copyright li:before {
 }
 footer .copyright  li:first-child:before {
     display: none;
+}
+
+footer .copyright li span{
+   color: #dd8855;
+   font-size: 12px;
 }
 
 /* social links */

@@ -56,6 +56,7 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
+   margin-top: 100px;
    width: 85%;
    padding-bottom: 30px;
    text-align: center;
@@ -69,16 +70,29 @@ header .banner-text h1 {
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
+
+header .banner-text h2 {
+   font: 45px/1.1em 'opensans-bold', sans-serif;
+   font-style: oblique;
+   color: #fff;
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+   margin-bottom: 0;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 40px/1.9em 'librebaskerville-regular', serif;
    color: #A8A8A8;
    margin: 0 auto;
+   margin-top: 0;
+   margin-bottom: 0;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   /* color: #fff; */
+   color: #e5ecf4;
 }
 header .banner-text hr {
    width: 60%;
@@ -89,7 +103,8 @@ header .banner-text hr {
 
 /* header social links */
 header .social {
-   margin: 24px 0;
+   /* margin: 24px 0; */
+   margin-top: 0;
    padding: 0;
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
@@ -176,6 +191,7 @@ ul#nav li a {
    text-align: left;
    color: #fff;
 
+
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
@@ -184,7 +200,12 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { 
+   /* color: #F06000;
+    color: #8D3016 */
+    /* color: #D02711; */
+    color: #c5d86d;
+}
 
 
 /* ------------------------------------------------------------------ */
@@ -192,7 +213,8 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   /* background: #2B2B2B; */
+   background: #231F1A;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -208,7 +230,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #D6D6D6;
 }
 #about .profile-pic {
    position: relative;
@@ -256,7 +278,8 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   /* border-bottom: 3px solid #11ABB0; */
+   border-bottom: 3px solid #97DB4F;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -802,7 +825,8 @@ call-to-action .button {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   /* color: #636363; */
+   color: #D6D6D6;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -815,10 +839,12 @@ call-to-action .button {
    letter-spacing: 3px;
    color: #EBEEEE;
    margin-bottom: 6px;
+   margin-bottom: 35px;
 }
 /* #contact h1 span { display: none; } */
 #contact h1 span {
-   border-bottom: 3px solid #11ABB0;
+   /* border-bottom: 3px solid #11ABB0; */
+   border-bottom: 3px solid #97DB4F;
    padding-bottom: 6px;
 }
 #contact h1:before {
@@ -841,6 +867,7 @@ call-to-action .button {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
    text-align: center;
+   margin-bottom: 35px
 }
 #contact .header-col { padding-top: 6px; }
 
@@ -1005,7 +1032,7 @@ footer .copyright  li:first-child:before {
 }
 
 footer .copyright li span{
-   color: #dd8855;
+   color: #c5d86d;
    font-size: 12px;
 }
 

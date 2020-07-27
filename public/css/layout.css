@@ -895,7 +895,7 @@ call-to-action .button {
    font-size: 15px;
    line-height: 24px;
    height: 7vh;
-   width: 75%;
+   width: 95%;
 }
 
 #contact input,
@@ -938,7 +938,7 @@ call-to-action .button {
    height: auto;
    display: inline-block;
 	border-radius: 3px;
-   margin-left: 71.5%;
+   margin-left: 81.6%;
 }
 #contact button.submit:hover {
 	color: #0D0D0D;

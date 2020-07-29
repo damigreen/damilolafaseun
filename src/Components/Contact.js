@@ -1,18 +1,55 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import axios from 'axios';
+
+const url = 'http://localhost:3004/api/contacts'
 
 
-// Remove border property of three
-// border: 1px solid red;
+
 export default class Contact extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    }
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit (e) {
+    e.preventDefault();
+    const contact = {
+      name: this.state.name,
+      email: this.state.email,
+      subject: this.state.subject,
+      message: this.state.message,
+      date: new Date(),
+    };
+
+    axios.post(url, contact)
+      .then(response => response.data)
+      .catch(error => console.log(error))
+
+    
+  }
+  
+  handleChange (e) {
+    const value = e.target.type === 'checkbox'
+      ? e.target.checked : e.target.value;
+    this.setState({
+      [e.target.name]: value
+    });
+  }
+
   render() {
     const {data = {}} = this.props;
     
     const {
       contactmessage = "",
     } = data;
-
-    console.log(data)
-    console.log(contactmessage)
 
     return (
       <section id="contact">
@@ -28,23 +65,50 @@ export default class Contact extends Component {
           
           <div className="row">
             <div className="eight columns centered">
-              <form>
+              <form onSubmit={this.handleSubmit}>
                 <fieldset>
 
                   <div>
-                    <input type="text" placeholder="Name" size id="contactName" name="contactName" onChange />
+                    <input
+                      type="text"
+                      value={this.state.value}
+                      placeholder="Name"
+                      id="contactName"
+                      name="name"
+                      onChange={this.handleChange} />
                   </div>
 
                   <div>
-                    <input type="email" placeholder="Enter email" size id="contactEmail" name="contactEmail" onChange />
+                    <input
+                      type="email"
+                      value = {this.state.value}
+                      placeholder="Enter email"
+                      id="contactEmail"
+                      name="email"
+                      onChange={this.handleChange} />
                   </div>
 
                   <div>
-                    <input type="text" placeholder="Subject" size id="contactSubject" name="contactSubject" onChange />
+                    <input
+                      type="text"
+                      value={this.state.value}
+                      placeholder="Subject"
+                      id="contactSubject"
+                      name="subject"
+                      onChange={this.handleChange} />
                   </div>
 
                   <div>
-                     <textarea cols="30" rows="15" placeholder="Your Message" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea 
+                      cols="30"
+                      rows="15"
+                      value={this.state.value}
+                      placeholder="Your Message"
+                      id="contactMessage"
+                      name="message"
+                      onChange={this.handleChange}
+                      >
+                    </textarea>
                   </div>
 
                   <div>

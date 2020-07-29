@@ -8,8 +8,6 @@ class Header extends Component {
     const {
       name = "",
       occupation = "",
-      description = "",
-      city = "",
       socials = [],
     } = data;
 

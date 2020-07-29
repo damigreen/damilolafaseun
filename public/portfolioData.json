@@ -47,7 +47,8 @@
         "school": "Obafemi Awolowo University, Ile-ife, Osun State",
         "degree": "B.Sc. Electronic and Electrical Engineering",
         "graduated": "December 2016",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
+        "description": ""y
+        
       }
     ],
     "work": [
@@ -55,25 +56,25 @@
         "company": "ScriptedOptics Limited",
         "title": "Production Assistant",
         "years": "2019",
-        "description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
+        "description": "Scripted Optics are media content providers such as documentaries, informercials, training videos, television programmes etc. for public and private. I was responsible for collecting and managing assets needed in the production proceess and collaborating with producers so as to deliver accurate content and a streamlined workflow."
       },
       {
         "company": "Ekiti State Electricity Board",
         "title": "Graduate Engineer Trainee",
         "years": "2017 - 2018",
-        "description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
+        "description": "Involved in planning and execution of several projects such as installation of a 100kVA distribution transformer. Evaluated design ideas to meet client requirements and implemented distibution systems for electrical wiring of new buildings."
       },
       {
         "company": "Mobil Oil Nigeria",
         "title": "Student Engineer Intern",
-        "years": "2014 - 2014",
-        "description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
+        "years": "2014",
+        "description": "Ensured safe working practices in the oil blending plant by coordinating job safety analysis for production line operators. Collaborated with senior engineers and technicians to performe corrective and preventive maintenance of manufacturing equipments to improve production yeild."
       },
       {
         "company": "Rida National Plastics",
         "title": "Intern",
         "years": "2014",
-        "description": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
+        "description": "Operate, maintain, troubleshoot and repair of molding equipment used in the production of plastics. Responsible for weighing and storage of raw materials."
       }
     ],
     "skills": {

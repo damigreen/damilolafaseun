@@ -78,11 +78,11 @@
       }
     ],
     "skills": {
-      "Web Technologies and Frameworks": ["HTML5", "CSS3", "Reactjs", "Redux", "JQuery", "REST API", "GraphQL server"],
-      "languages and Scripts": ["JavaScript", "Nodejs",  "Expressjs", "Python"],
-      "Database and ORM": ["MongoDB", "Redux-ORM"],
-      "Testing and Debugging": ["Jest", "Cypress",  "Chrome developer tool", "Firefox developer tool"],
-      "Others": ["NPM", "Yarn", "Figma"]
+      "Web Technologies and Frameworks": ["HTML5|icons8-html-5", "CSS3|icons8-css3", "Reactjs|icons8-react", "Redux|icons8-redux", "JQuery", "REST API", "GraphQL server"],
+      "languages and Scripts": ["JavaScript", "NodeJS (Express)|icons8-nodejs", "Python"],
+      "Database and ORM": ["MongoDB|icons8-mongodb", "Redux-ORM|redux-orm-white"],
+      "Testing and Debugging": ["Jest", "Cypress",  "Chrome developer tool|icons8-chrome", "Firefox developer tool|icons8-firefox"],
+      "Others": ["Github|icons8-github", "NPM|icons8-npm", "Yarn|download", "Figma"]
     }
   },
   "portfolio": {

@@ -47,9 +47,16 @@ export class Experience extends Component {
     const mySkills = mySkillNames.map(sk => {
       return (
         <Card style={{marginTop: '70px'}} title={sk} >
-          {skills[sk].map(s => (
-            <Card.Grid style={gridStyle}>{s}</Card.Grid>
-          ))}
+          {skills[sk].map(s => {
+            var iconUrl = 'images/icons/'+s.split("|")[1]+".svg";
+            console.log((iconUrl))
+            return (
+                <Card.Grid style={gridStyle}>
+                  <div>{s.split("|")[0]}</div>
+                  <img src={iconUrl} />
+                </Card.Grid>
+            )}
+          )}
         </Card>
       )
     })

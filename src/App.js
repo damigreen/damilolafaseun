@@ -31,16 +31,19 @@ class App extends Component {
   componentDidMount() {
     this.getData();
   }
+
   
   render() {
+    const {portfolioData = {}} = this.state;
+
     return (
       <div style={{backgroundColor: '1px solid red'}} className="App">
-        <Header data={this.state.portfolioData.main} />
-        <About data={this.state.portfolioData.main} />
-        <Experience data={this.state.portfolioData.resume} />
-        <Portfolio data={this.state.portfolioData.portfolio} />
-        <Contact data={this.state.portfolioData.main} />
-        <Footer data={this.state.portfolioData.main} />
+        <Header data={portfolioData.main} />
+        <About data={portfolioData.main} />
+        <Experience data={portfolioData.resume} />
+        <Portfolio data={portfolioData.portfolio} />
+        <Contact data={portfolioData.main} />
+        <Footer data={portfolioData.main} />
       </div>
     )
   }

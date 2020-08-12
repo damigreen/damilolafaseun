@@ -4,7 +4,7 @@
     "occupation": "Front-end Developer",
     "description": "A full-stack web developer based in Lagos Nigeria.",
     "image": "profilepic.jpg",
-    "bio": "I am a creative front-end developer. I use JavaScript and React to create highly interactive and user friendly web experience.  After obtaining my degree in Electrical engineer, I took up a trainee position in electircal engineering and worked briefly in the media industry, a friend of mine introduced me programming and recommended the online learning platform 'freecodecamp.com'. I found in programming a passion that encourages me to be innovative and allows me to express my creativity.  I have a keen intrest in web development and always try to think out of the box. I like learning new things and keeping up with industry trends and advancements.",
+    "bio": "I am a creative front-end developer. I use JavaScript and React to create highly interactive and user friendly web experience.  After obtaining my degree in Electrical engineer, I took up a trainee position as an electrical engineer and worked briefly in the media industry, a friend of mine introduced me programming and recommended the online learning platform 'freecodecamp.com'. I found in programming a passion that encourages me to be innovative and allows me to express my creativity.  I have a keen intrest in web development and always try to think out of the box. I like learning new things and keeping up with industry trends and advancements.",
     "contactmessage": "I am currently available for work. Get in touch.",
     "email": "damilola.faseun@gmail.com",
     "phone": "+23407061935742",
@@ -15,7 +15,7 @@
       "zip": "100261"
     },
     "website": "https://www.linkedin.com/in/damilola-faseun-748602b1",
-    "resumedownload": "https://www.linkedin.com/in/damilola-faseun-748602b1",
+    "resumedownload": "https://drive.google.com/file/d/1PQEJIlOu0YRTnxGbysgx63BqQIx1bHwp/view?usp=sharing",
     "socials": [
       {
         "name": "linkedin",
@@ -78,11 +78,11 @@
       }
     ],
     "skills": {
-      "Web Technologies and Frameworks": ["HTML5|icons8-html-5", "CSS3|icons8-css3", "Reactjs|icons8-react", "Redux|icons8-redux", "JQuery", "REST API", "GraphQL server"],
-      "languages and Scripts": ["JavaScript", "NodeJS (Express)|icons8-nodejs", "Python"],
-      "Database and ORM": ["MongoDB|icons8-mongodb", "Redux-ORM|redux-orm-white"],
-      "Testing and Debugging": ["Jest", "Cypress",  "Chrome developer tool|icons8-chrome", "Firefox developer tool|icons8-firefox"],
-      "Others": ["Github|icons8-github", "NPM|icons8-npm", "Yarn|download", "Figma"]
+      "Web Technologies and Frameworks": ["HTML5|icons8-html-5", "CSS3|icons8-css3", "Reactjs|icons8-react", "Redux|icons8-redux", "JQuery|icons8-jquery", "REST API|icons8-rest-api-40-PNG", "GraphQL server|icons8-graphql"],
+      "languages and Scripts": ["JavaScript|icons8-javascript", "NodeJS (Express)|icons8-nodejs", "Python|icons8-python"],
+      "Database and ORM": ["MongoDB|icons8-mongodb", "Redux-ORM|redux-orm"],
+      "Testing and Debugging": ["Jest|jest-seeklogo.com", "Cypress|cypress-PNG",  "Chrome developer tool|icons8-chrome", "Firefox developer tool|icons8-firefox"],
+      "Others": ["Github|icons8-github", "NPM|icons8-npm", "Yarn|yarn-seeklogo.com", "Figma|figma-seeklogo.com"]
     }
   },
   "portfolio": {

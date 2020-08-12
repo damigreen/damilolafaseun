@@ -48,12 +48,17 @@ export class Experience extends Component {
       return (
         <Card style={{marginTop: '70px'}} title={sk} >
           {skills[sk].map(s => {
-            var iconUrl = 'images/icons/'+s.split("|")[1]+".svg";
+            var iconName = `images/icons/${s.split("|")[1]}`
+            console.log(iconName)
+            var iconUrl = iconName +".svg";
+            var iconUrlAlt = 'images/icons/'+s.split("|")[1]+".png";
+            var icon = iconName.includes('PNG') ? iconUrlAlt : iconUrl;
+
             console.log((iconUrl))
             return (
                 <Card.Grid style={gridStyle}>
                   <div>{s.split("|")[0]}</div>
-                  <img src={iconUrl} />
+                  <img src={icon} />
                 </Card.Grid>
             )}
           )}

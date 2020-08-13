@@ -90,32 +90,38 @@
       {
         "title": "BlogKeep",
         "categories": "A Nodejs web Application that allows users save interesting blogs from the web with likes and comments features",
-        "image":"canadian-wanderlust.jpg",
-        "url": ""
+        "image":"blogkeep.png",
+        "url": "https://polar-brushlands-57852.herokuapp.com/"
       },
       {
         "title": "Web Stickies",
         "categories": "A Simple  JavaScript application that allows you to quickly stick important note to your web browsers as a form of a remainder.",
-        "image":"fury-fighting-gear.jpg",
-        "url": ""
+        "image":"webstickies.png",
+        "url": "https://damigreen.github.io/web-stickes/"
       },
       {
         "title": "PhoneBook",
         "categories": "A web application that utilizes the MERN stack and allows users easily manage their phonebook",
-        "image":"original-thai-food.jpg",
-        "url": ""
+        "image":"phonebook.png",
+        "url": "https://glacial-bayou-76915.herokuapp.com/"
       },
       {
         "title": "Battleship",
         "categories": "A JavaScript game allow a user play against battleships generated on grid locations and provides users with a trigger for targeting battleships locations on the grid",
-        "image":"resume-website.jpg",
-        "url": ""
+        "image":"battleship.jpg",
+        "url": "https://damigreen.github.io/battleship/"
       },
       {
         "title": "Country-Finder",
         "categories": "A React front-end portal that helps users acces information about a particular country including country flag, population, weather conditions etc .",
-        "image":"smirkspace.jpg",
-        "url": ""
+        "image":"countrystack.png",
+        "url": "https://damigreen.github.io/country-stack/"
+      },
+      {
+        "title": "Project-Minimek",
+        "categories": "This is a miniature version of the MekHQ Battletech campaign force manager tool.",
+        "image":"project-minimek.png",
+        "url": "http://damigreen.github.io/project-minimek"
       }
     ]
   },

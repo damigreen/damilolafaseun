@@ -1,0 +1,136 @@
+{
+  "main": {
+    "name": "Damilola Faseun",
+    "occupation": "Front-end Developer",
+    "description": "A full-stack web developer based in Lagos Nigeria.",
+    "image": "profilepic.jpg",
+    "bio": "I am a creative front-end developer. I use JavaScript and React to create highly interactive and user friendly web experience.  After obtaining my degree in Electrical engineer, I took up a trainee position as an electrical engineer and worked briefly in the media industry, a friend of mine introduced me programming and recommended the online learning platform 'freecodecamp.com'. I found in programming a passion that encourages me to be innovative and allows me to express my creativity.  I have a keen intrest in web development and always try to think out of the box. I like learning new things and keeping up with industry trends and advancements.",
+    "contactmessage": "I am currently available for work. Get in touch.",
+    "email": "damilola.faseun@gmail.com",
+    "phone": "+23407061935742",
+    "address": {
+      "street": "5 Alh. Adijat Lawal Cl, Mafoluku Oshodi",
+      "city": "Lagos",
+      "state": "Lagos",
+      "zip": "100261"
+    },
+    "website": "https://www.linkedin.com/in/damilola-faseun-748602b1",
+    "resumedownload": "https://drive.google.com/file/d/1PQEJIlOu0YRTnxGbysgx63BqQIx1bHwp/view?usp=sharing",
+    "socials": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/damilola-faseun-748602b1",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/damigreen",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/@damilolaFaseun",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "instagram",
+        "url": "https://instagram.com/dami_inc",
+        "className": "fa fa-instagram"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage1": "I am highly interested in frontend development, building clean and interactive user interfaces that run accross all devices using frontend technologies like HTML5, CSS3, Javascript(ReactJs).",
+    "skillmessage2": "I also have hand-on experience developing full-stack application with NodeJs using modern database system like MongoDB and REST API for the backend.",
+    "education": [
+      {
+        "school": "Obafemi Awolowo University, Ile-ife, Osun State",
+        "degree": "B.Sc. Electronic and Electrical Engineering",
+        "graduated": "December 2016",
+        "description": ""
+        
+      }
+    ],
+    "work": [
+      {
+        "company": "ScriptedOptics Limited",
+        "title": "Production Assistant",
+        "years": "2019",
+        "description": "Scripted Optics are media content providers such as documentaries, informercials, training videos, television programmes etc. for public and private. I was responsible for collecting and managing assets needed in the production proceess and collaborating with producers so as to deliver accurate content and a streamlined workflow."
+      },
+      {
+        "company": "Ekiti State Electricity Board",
+        "title": "Graduate Engineer Trainee",
+        "years": "2017 - 2018",
+        "description": "Involved in planning and execution of several projects such as installation of a 100kVA distribution transformer. Evaluated design ideas to meet client requirements and implemented distibution systems for electrical wiring of new buildings."
+      },
+      {
+        "company": "Mobil Oil Nigeria",
+        "title": "Student Engineer Intern",
+        "years": "2014",
+        "description": "Ensured safe working practices in the oil blending plant by coordinating job safety analysis for production line operators. Collaborated with senior engineers and technicians to performe corrective and preventive maintenance of manufacturing equipments to improve production yeild."
+      },
+      {
+        "company": "Rida National Plastics",
+        "title": "Intern",
+        "years": "2014",
+        "description": "Operate, maintain, troubleshoot and repair of molding equipment used in the production of plastics. Responsible for weighing and storage of raw materials."
+      }
+    ],
+    "skills": {
+      "Web Technologies and Frameworks": ["HTML5|icons8-html-5", "CSS3|icons8-css3", "Reactjs|icons8-react", "Redux|icons8-redux", "JQuery|icons8-jquery", "REST API|icons8-rest-api-40-PNG", "GraphQL server|icons8-graphql"],
+      "languages and Scripts": ["JavaScript|icons8-javascript", "NodeJS (Express)|icons8-nodejs", "Python|icons8-python"],
+      "Database and ORM": ["MongoDB|icons8-mongodb", "Redux-ORM|redux-orm"],
+      "Testing and Debugging": ["Jest|jest-seeklogo.com", "Cypress|cypress-PNG",  "Chrome developer tool|icons8-chrome", "Firefox developer tool|icons8-firefox"],
+      "Others": ["Github|icons8-github", "NPM|icons8-npm", "Yarn|yarn-seeklogo.com", "Figma|figma-seeklogo.com"]
+    }
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "BlogKeep",
+        "categories": "A Nodejs web Application that allows users save interesting blogs from the web with likes and comments features",
+        "image":"blogkeep.png",
+        "url": "https://polar-brushlands-57852.herokuapp.com/"
+      },
+      {
+        "title": "Web Stickies",
+        "categories": "A Simple  JavaScript application that allows you to quickly stick important note to your web browsers as a form of a remainder.",
+        "image":"webstickies.png",
+        "url": "https://damigreen.github.io/web-stickes/"
+      },
+      {
+        "title": "PhoneBook",
+        "categories": "A web application that utilizes the MERN stack and allows users easily manage their phonebook",
+        "image":"phonebook.png",
+        "url": "https://glacial-bayou-76915.herokuapp.com/"
+      },
+      {
+        "title": "Battleship",
+        "categories": "A JavaScript game allow a user play against battleships generated on grid locations and provides users with a trigger for targeting battleships locations on the grid",
+        "image":"battleship.jpg",
+        "url": "https://damigreen.github.io/battleship/"
+      },
+      {
+        "title": "Country-Finder",
+        "categories": "A React front-end portal that helps users acces information about a particular country including country flag, population, weather conditions etc .",
+        "image":"countrystack.png",
+        "url": "https://damigreen.github.io/country-stack/"
+      },
+      {
+        "title": "Project-Minimek",
+        "categories": "This is a miniature version of the MekHQ Battletech campaign force manager tool.",
+        "image":"project-minimek.png",
+        "url": "http://damigreen.github.io/project-minimek"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "",
+        "user": ""
+      }
+    ]
+  }
+}

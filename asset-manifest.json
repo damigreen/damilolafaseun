@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/damilolafaseun/static/css/main.9903ec36.chunk.css",
+    "main.js": "/damilolafaseun/static/js/main.137c4971.chunk.js",
+    "main.js.map": "/damilolafaseun/static/js/main.137c4971.chunk.js.map",
+    "runtime-main.js": "/damilolafaseun/static/js/runtime-main.abf2d227.js",
+    "runtime-main.js.map": "/damilolafaseun/static/js/runtime-main.abf2d227.js.map",
+    "static/css/2.fc5a9450.chunk.css": "/damilolafaseun/static/css/2.fc5a9450.chunk.css",
+    "static/js/2.177e31c7.chunk.js": "/damilolafaseun/static/js/2.177e31c7.chunk.js",
+    "static/js/2.177e31c7.chunk.js.map": "/damilolafaseun/static/js/2.177e31c7.chunk.js.map",
+    "index.html": "/damilolafaseun/index.html",
+    "precache-manifest.840db2ac90a8e7cca0d044fffc9b0dd0.js": "/damilolafaseun/precache-manifest.840db2ac90a8e7cca0d044fffc9b0dd0.js",
+    "service-worker.js": "/damilolafaseun/service-worker.js",
+    "static/css/2.fc5a9450.chunk.css.map": "/damilolafaseun/static/css/2.fc5a9450.chunk.css.map",
+    "static/css/main.9903ec36.chunk.css.map": "/damilolafaseun/static/css/main.9903ec36.chunk.css.map",
+    "static/js/2.177e31c7.chunk.js.LICENSE.txt": "/damilolafaseun/static/js/2.177e31c7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abf2d227.js",
+    "static/css/2.fc5a9450.chunk.css",
+    "static/js/2.177e31c7.chunk.js",
+    "static/css/main.9903ec36.chunk.css",
+    "static/js/main.137c4971.chunk.js"
+  ]
+}
